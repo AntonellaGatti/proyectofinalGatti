@@ -1,0 +1,54 @@
+.main-funciones {
+    min-height: 180vh;
+
+    h1 {
+        font-weight: bold;
+    }
+}
+
+
+.conjunto-funciones {
+    position: relative;
+    top: 190px;
+}
+
+.section__funciones {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* Responsive para Pantallas Medianas */
+
+@media (max-width: 768px) {
+    .main-funciones {
+        min-height: 200vh;
+    }
+
+}
+
+/* Media para tamaño chico */
+
+@media (max-width: 480px) {
+    .main-funciones {
+        min-height: 310vh;
+    }
+
+    .conjunto-funciones {
+    position: relative;
+    top: 280px
+
+    }
+    
+    .section__funciones {
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        height:auto;
+        width: 100vw;
+        
+    }
+
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../img/LogoFindCargo.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Preguntas Frecuentes</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top animate__animated animate__slideInDown">
+            <div class="container-fluid">
+                <a href="../index.html">
+                    <img src="../img/LogoFindCargoChica.jpg" alt="Logo FindCargo" class="header__img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./funciones.html">Funciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./aranceles.html">Aranceles</a>
+                        </li>
+                        <li class="nav-item nav-item-activo">
+                            <a class="nav-link" href="./preguntasFrecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./miCuenta.html">Mi Cuenta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-preguntasFrecuentes">
+        <section class="subtitulo-main">
+            <h1>Preguntas Frecuentes</h1>
+            <h3>¿Sobre qué tema necesitas información?</h3>
+            <p>Dejamos debajo una seria de preguntas que nos suelen hacer para ayudarte a tener una respuesta más
+                rápida. <br>No encontraste tu consulta? No te preocupes! Dejanos tu consulta en el formalurio y te
+                ayudaremos!</p>
+        </section>
+        <ol class="preguntas-frecuentes">
+            <li class="preguntas">¿Cómo me registro en Find Cargo?
+                <p>Es fácil! Entrá en <a href="./miCuenta.html">Mi Cuenta</a> arriba en el Navegador y buscá la opción
+                    "Aún no tienes cuenta?". Ingresá tu Nombre, Apellido e email de preferia y luego hacé clic en
+                    "Registrate". Ahí podrás elegir registrarte con tu usuario de Facebook, con tu email de Gmail o bien
+                    ingresando otro mail y una contraseña. Luego hacé clic en el botón “Registrate”. <br> Te llegará un
+                    correo a esa dirección para validar que la dirección fue ingresada correctamente. Hacé clic en el
+                    botón que dice “Verifique su email” y listo! Ya eres miembro de nuestra comunidad.</p>
+            </li>
+            <li class="preguntas">¿La Aplicación tiene un costo?
+                <p>No, la misma no tiene costo. Puede ser descargada de forma gratuita a través de cualquier dispositivo
+                    Android. Sin embargo, para utilizar sus funcionalidades de buscar viajes y consumar contratos se
+                    cobrará el arancel del 3% sobre el valor del flete por opeación, con un mínimo de ARS $600.</p>
+            </li>
+
+            <li class="preguntas">¿Cómo puedo subir de Categoría de Cliente?
+                <p>El requisito principal para subir de Categoría en una permanencia mínima de 6 meses en la categoría
+                    actual, adionando el abono de la subscripción a la que se quiera aplicar. Podés encontrar más
+                    información acerca de los costos entrando a <a href="./aranceles.html">Aranceles</a>.</p>
+            </li>
+        </ol>
+
+        <div class="preguntas-frecuentes">
+            <h3>¿Te quedó alguna duda que no pudiste responder con las Preguntas Frecuentes?</h3>
+            <p>Escribinos y en breve nos pondremos en contacto contigo!</p>
+            <form action="#" method="GET" enctype="#" class="formulario-preguntas">
+                <legend name="nombreContacto">Nombre</legend>
+                <input type="text" name="nombre" required class="formulario__text">
+                <legend name="apellidoContacto">Apellido</legend>
+                <input type="text" name="apellidoContacto" required class="formulario__text">
+                <legend for="emailContacto">E-mail</legend>
+                <input type="email" name="emailContacto" required class="formulario__text">
+                <legend for="mensaje">Mensaje</legend>
+                <textarea name="mensaje" class="formulario__textarea--consulta">Quería consultar acerca de...</textarea>
+                <input type="submit" value="Enviar" class="boton">
+                <input type="reset" value="Borrar" class="boton">
+            </form>
+        </div>
+
+
+
+
+
+    </main>
+
+    <footer>
+        <h4>Seguinos en nuestras redes!</h4>
+        <ul>
+            <li class="footer__redes"><a href="#">Instagram</a></li>
+            <li class="footer__redes"><a href="#">Linkedin</a></li>
+        </ul>
+        <h4>Copyright - Todos los derechos reservados</h4>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

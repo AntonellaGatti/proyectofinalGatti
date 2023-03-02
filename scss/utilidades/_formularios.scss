@@ -1,0 +1,48 @@
+.formulario__text {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(165, 1, 4);
+    color: rgb(89, 0, 4)
+}
+
+
+legend {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(165, 1, 4);
+}
+
+.boton {
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    background-color: rgba(165, 1, 4, 0.611);
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: rgba(165, 1, 4, 0.725);
+    width: 150px;
+}
+
+label {
+    color: rgb(89, 0, 4);
+
+}
+
+
+/* Responsive para Pantallas Medianas */
+
+@media (max-width: 768px) {
+    
+
+}
+
+/* Media para tamaño chico */
+
+@media (max-width: 480px) {
+    
+
+
+}

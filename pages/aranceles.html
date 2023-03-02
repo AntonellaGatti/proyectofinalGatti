@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../img/LogoFindCargo.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Aranceles</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top animate__animated animate__slideInDown">
+            <div class="container-fluid">
+                <a href="../index.html">
+                    <img src="../img/LogoFindCargoChica.jpg" alt="Logo FindCargo" class="header__img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./funciones.html">Funciones</a>
+                        </li>
+                        <li class="nav-item nav-item-activo">
+                            <a class="nav-link" href="./aranceles.html">Aranceles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./preguntasFrecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./miCuenta.html">Mi Cuenta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-aranceles">
+        <section class="subtitulo-aranceles">
+            <h1>Aranceles</h1>
+            <h3>Qué tipo de cliente sos y que arancel corresponde?</h3>
+            <p>El precio de la comisión sobre la Operación será solamente el 3% del valor del Flete, que será cobrado a
+                través de la misma aplicación y descontado del pago del cliente final. Sin embargo, estableceremos que
+                el mínimo de la misma sean ARS $600, es decir que si el 3% del valor del flete es menor a ARS $600,
+                igualmente se tomará este monto como base de cobro.</p>
+            <h2>Diferenciación de servicios de Clientes Bronce, Plara y Oro</h2>
+            <p>Luego de los primeros seis meses
+                estará disponible la opción de abonar una suscripción anual para los clientes Plata y Oro, que desean
+                tener mayores funcionalidades dentro de la aplicación.</p>
+        </section>
+
+
+        <section class="conjunto-clientes">
+            <!-- DETALLE DE USUARIOS -->
+            <section class="section__clientes">
+                <h3>Clientes Bronce 🥉</h3>
+                <p>Esta es la categoría básica para todos los clientes que se inician en la App y contempla sólo el
+                    abono
+                    del arancel de 3% sobre el valor del flete por operación, con un mínimo de ARS $600. <br>Todos los
+                    Usuarios Bronce podrán:</p>
+                <ul>
+                    <li>Buscar viajes</li>
+                    <li>Buscar carga de Retorno</li>
+                </ul>
+            </section>
+
+
+            <section class="section__clientes">
+                <h3>Clientes Plata 🥈</h3>
+                <Todos>Esta es la segunda categoría, a la cual se puede acceder luego de 6 meses siendo parte de la
+                    catergoría
+                    Bronce. Contempla la subscipción anual con un monto de ARS$800 mensual y el abono del arancel de 3%
+                    sobre el valor del flete por opeación, con un mínimo de ARS $600. <br> Todos los Usuarios Plata
+                    podrán:</p>
+                    <ul>
+                        <li>Buscar viajes</li>
+                        <li>Buscar carga de Retorno</li>
+                        <li>Buscar carga tanto FTL como LTL</li>
+                    </ul>
+            </section>
+
+            <section class="section__clientes">
+                <h3>Clientes Oro 🥇</h3>
+                <p>Esta es la más alta categoría, a la cual se puede acceder luego de 6 meses siendo parte de la
+                    catergoría
+                    Plata. Contempla la subscipción anual con un monto de ARS$1000 mensual y el abono del arancel de 3%
+                    sobre el valor del flete por opeación, con un mínimo de ARS $600.<br> Todos los Usuarios Plata
+                    podrán:</p>
+                <ul class="clientes-oro">
+                    <li>Inluye las funciones de los anteriores niveles</li>
+                    <li>Búsqueda de carga de retorno cuando el viaje ya ha sido iniciado</li>
+                    <li>Prioridad en la lista de unidades disponibles</li>
+                </ul>
+            </section>
+
+            <!-- TABLA TIPO DE CLIENTES -->
+            <h4 class="titulo-table">Por si quedó alguna duda, te dejamos debajo un cuadro comparativo!</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Tipo de Cliente</th>
+                        <th scope="col">Abono Arancel</th>
+                        <th scope="col">Mīnimo de Arancel por Operación</th>
+                        <th scope="col">Subscipción Necesaria</th>
+                        <th scope="col">Costo Subscipción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Bronce</th>
+                        <td>3% sobre el valor del flete</td>
+                        <td>600$</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Plata</th>
+                        <td>3% sobre el valor del flete</td>
+                        <td>600$</td>
+                        <td>✔️</td>
+                        <td>$800 mensual</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Oro</th>
+                        <td>3% sobre el valor del flete</td>
+                        <td>600$</td>
+                        <td>✔️</td>
+                        <td>$1000 mensual</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="">
+        <h4>Seguinos en nuestras redes!</h4>
+        <ul>
+            <li class="footer__redes"><a href="#">Instagram</a></li>
+            <li class="footer__redes"><a href="#">Linkedin</a></li>
+        </ul>
+        <h4>Copyright - Todos los derechos reservados</h4>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
