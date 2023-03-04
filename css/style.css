@@ -458,7 +458,7 @@ label {
     justify-content: space-around; } }
 
 .main-funciones {
-  min-height: 180vh; }
+  min-height: 220vh; }
   .main-funciones h1 {
     font-weight: bold; }
 
@@ -474,7 +474,7 @@ label {
 /* Responsive para Pantallas Medianas */
 @media (max-width: 768px) {
   .main-funciones {
-    min-height: 200vh; } }
+    min-height: 250vh; } }
 
 /* Media para tamaño chico */
 @media (max-width: 480px) {
@@ -491,7 +491,7 @@ label {
     width: 100vw; } }
 
 .main-aranceles {
-  height: 220vh; }
+  height: 300vh;}
 
 .conjunto-clientes {
   position: relative;
@@ -571,9 +571,9 @@ label {
   .main-aranceles {
     height: 320vh; }
   .conjunto-clientes {
-    top: 75vh; }
+    top: 90vh; }
   .section__clientes {
-    height: 50vh;
+    height: 70vh;
     justify-content: flex-end; }
     .section__clientes h2 {
       margin: 10px;
