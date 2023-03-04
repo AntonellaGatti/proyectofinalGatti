@@ -551,9 +551,9 @@ label {
 /* Responsive para Pantallas intermedias antes que Medianas */
 @media (max-width: 920px) {
   .main-aranceles {
-    height: 210vh; }
+    height: 310vh; }
   .conjunto-clientes {
-    top: 50vh; } }
+    top: 70vh; } }
 
 /* Responsive para Pantallas Medianas */
 @media (max-width: 768px) {
@@ -655,7 +655,7 @@ label {
     width: 90%; } }
 
 .main-miCuenta {
-  height: 150vh; }
+  height: 220vh; }
   .main-miCuenta h1 {
     font-weight: bold; }
 
