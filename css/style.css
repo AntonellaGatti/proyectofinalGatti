@@ -569,7 +569,7 @@ label {
 /* Media para tamaño chico */
 @media (max-width: 480px) {
   .main-aranceles {
-    height: 320vh; }
+    height: 400vh; }
   .conjunto-clientes {
     top: 90vh; }
   .section__clientes {
