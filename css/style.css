@@ -164,8 +164,7 @@ label {
   font-size: 20px;
   font-weight: bold;
   margin-top: 50px;
-  margin-right: 20px;
-  overflow: scroll; }
+  margin-right: 20px; }
 
 .flyer-principal h1 {
   display: block;
@@ -492,7 +491,7 @@ label {
     width: 100vw; } }
 
 .main-aranceles {
-  height: 200vh; }
+  height: 220vh; }
 
 .conjunto-clientes {
   position: relative;
@@ -551,14 +550,14 @@ label {
 /* Responsive para Pantallas intermedias antes que Medianas */
 @media (max-width: 920px) {
   .main-aranceles {
-    height: 310vh; }
+    height: 320vh; }
   .conjunto-clientes {
     top: 70vh; } }
 
 /* Responsive para Pantallas Medianas */
 @media (max-width: 768px) {
   .main-aranceles {
-    height: 250vh; }
+    height: 300vh; }
   .conjunto-clientes {
     top: 70vh; }
   .section__clientes h2 {
